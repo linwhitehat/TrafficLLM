@@ -14,6 +14,7 @@ The repository of **TrafficLLM**, a universal LLM adaptation framework to learn 
 Note: this code is based on [ChatGLM2](https://github.com/THUDM/ChatGLM2-6B) and [Llama2](https://github.com/meta-llama/llama-recipes). Many thanks to the authors.
 
 ## News
+- [x] [2024.11.26] 🌲🌲 We release the generation code to use TrafficLLM to generate packets with [Scapy](https://scapy.net/), which can generate pcap files that can be read by Wireshark. Go to [tutorials](https://github.com/ZGC-LLM-Safety/TrafficLLM/tree/master/tutorials) for more details.
 - [x] [2024.10.28] 🎉🎉 We have update the adaptation code for using GLM4 to build TrafficLLM, which has a faster tuning and inference speed than ChatGLM2. Go to [Adapt2GLM4](https://github.com/ZGC-LLM-Safety/TrafficLLM/tree/master/Adapt2GLM4) for more details.
 
 ## Brief Introduction
@@ -328,7 +329,7 @@ streamlit run trafficllm_server.py
 ```
 This demo runs a Web server of TrafficLLM. Access `http://Your-Server-IP:Port` to chat in the chatbox.
 
-![Web demo](images/web-demo.gif)
+![Web demo](images/web-demo-new.gif)
 
 ## Acknowledgements
 
